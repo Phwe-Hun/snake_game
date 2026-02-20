@@ -1,50 +1,22 @@
-# POP Raylib starter
+# Snake Game (C / Raylib)
 
-Simple starter application for POP C assignment.
+A grid-based Snake game developed as part of coursework and personal projects, focusing on deterministic game logic, collision detection, and timing-aware game loops.
 
-Please see materials on Blackboard for more details.
+## Features
+- Grid-based snake movement
+- Fruit spawning and scoring
+- Collision detection with walls and self
+- Smooth, timing-aware game loops
 
-# Building
+## Technologies
+- C
+- Raylib
+- Git for version control
 
-To build run the command:
+## Learning Outcomes
+- Structured and maintainable coding
+- Debugging and problem-solving skills
+- Understanding of real-time game loops
 
-```bash
-/opt/pop/bin/build-wasm.sh src/main.c
-```
-
-This will generate a directory *out* with the WASM and index.html files for the 
-Raylib program.
-
-# Running
-
-The very first time you run a POP WASM application you must run the command:
-
-```bash
-/opt/pop/bin/allocate_port.sh
-```
-
-You might need to start a new terminal instance for the update to take effect.
-To check that everything is fine run the command:
-
-```bash
-echo $MY_PORT
-```
-
-This should output a 5 digit number.
-
-
-To run the Raylib program in *out* simply run the command:
-
-```bash
-/opt/pop/bin/run-wasm.sh
-```
-
-This will run a web server that serves the *out* on the port you allocated above. This is forwarded from the 
-remote server to your local machine, which means you can simply open the corresponding web page within a browser 
-on your local machine using the address:
-
-```bash
-localhost:XXXXX
-```
-
-where *XXXXX* is the port number you allocated above.
+## Portfolio Summary
+This project demonstrates skills in low-level programming, real-time system logic, and problem decomposition. It reflects an ability to implement structured, maintainable, and deterministic code in a team or individual project environment.
